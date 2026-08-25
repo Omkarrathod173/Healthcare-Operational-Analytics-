@@ -1,0 +1,8 @@
+Total Patients = COUNTROWS ( Patients )
+Avg ER Wait = AVERAGE ( Patients[wait_time_minutes] )
+Avg LOS = AVERAGE ( Patients[length_of_stay_hours] )
+Bed Occupancy % = AVERAGE ( Patients[bed_occupancy_pct] )
+Admission Rate % = AVERAGE ( Patients[admitted_flag] ) * 100
+Bed Transfer Rate % = AVERAGE ( Patients[bed_transfer_flag] ) * 100
+Avg Transfer Delay =
+CALCULATE ( AVERAGE ( Patients[bed_transfer_delay_minutes] ), Patients[bed_transfer_flag] = 1 )
