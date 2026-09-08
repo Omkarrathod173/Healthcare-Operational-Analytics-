@@ -1,10 +1,5 @@
-# Healthcare Operational Analytics
-
-**Stack:** Python, SciPy, PostgreSQL, SQL, Power BI
-
-### Resume-aligned bullets
-- Analyzed **50K+** clinical patient records using **Python** (EDA, t-test, Chi-Square)to identify the **key ER** wait-time drivers.
-- Optimized complex **SQL** queries to segment patient length-of-stay, uncovering a critical **15%** bed transfer bottleneck.
-- Built interactive **Power BI** dashboard to track the **real-time operational KPIs**, **bed occupancy**, and **triage allocation**.
-
-> Portfolio note: the dataset is synthetic and created to demonstrate the workflow at the stated scale.
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Analytics-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Healthcare](https://img.shields.io/badge/Domain-Healthcare%20Analytics-008080?style=for-the-badge&logo=healthcare&logoColor=white)
+![Dashboard](https://img.shields.io/badge/Reporting-BI%20%26%20KPIs-FF6F00?style=for-the-badge)
